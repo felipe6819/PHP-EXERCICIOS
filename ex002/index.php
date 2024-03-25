@@ -10,9 +10,10 @@
 
 <body>
     <h1>Exeemplo PHP</h1>
-    <? $nome = "felipe";
-    echo "<p>o meu nome é $nome</p>";
-
+    <?php
+    //date_default_timezone_set("america/sao_paulo");
+    echo "hoje é dia" . date("d/m/y");
+    echo "e a hora atual é " . date("G:i:s");
     ?>
 
 </body>
