@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo</title>
+    <title>Tipos primitivos</title>
 </head>
 
 <body>
-    <h1>Exemplo</h1>
+    <h1>Tipos primitivos</h1>
     <?php
-    $nome = "pedro"
-    echo "é verdade que seu nome é pedro $nome ?";
+
     ?>
 
 </body>
