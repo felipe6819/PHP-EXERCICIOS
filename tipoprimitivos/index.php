@@ -12,8 +12,8 @@
     <h2>com numeros binarios</h2>
     <?php
 
-    $num = 0x1A;
-    $num2 = 0b1011;
+    $num = 0x1A;  //numero hexadecimal
+    $num2 = 0b1011;  //numero nbinario
     $num3 = (float)3e2; //forçou coerção
     $num4 = (float) 950;
     var_dump($num3, $num, $num2, $num4); //mostra o tipo
