@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -17,10 +18,10 @@
         <?php
         $n = $_GET["nome"];
         $s = $_GET["sobrenome"];
-        echo " <p> é um prazer te conhecer, $n $s! Este é o meu site!";
+        echo " <p> é um prazer te conhecer,<strong>$n $s</strong>! Este é o meu site!";
 
         ?>
-    </main>
+        <a href="javascript:history.go(-1)">voltar a pagina anterior</a>
 
 </body>
 
