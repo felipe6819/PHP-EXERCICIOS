@@ -16,12 +16,12 @@
     </header>
     <main>
         <?php
-        $n = $_GET["nome"];
-        $s = $_GET["sobrenome"];
-        echo " <p> é um prazer te conhecer,<strong>$n $s</strong>! Este é o meu site!";
+        $nome = $_GET["nome"] ?? "sem nome";
+        $sobrenome = $_GET["sobrenome"] ?? "desconhecido";
+        echo " <p> é um prazer te conhecer,<strong>$nome $sobrenome</strong>! Este é o meu site!";
 
         ?>
-        <a href="javascript:history.go(-1)">voltar a pagina anterior</a>
+        <p><a href="javascript:history.go(-1)">voltar a pagina anterior</a></p>
 
 </body>
 
